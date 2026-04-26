@@ -18,7 +18,7 @@ import ContextAPI from './component/Context_API/ContextAPI';
 import ApiData from './component/API Data Fetching in React/ApiData';
 import LoadingTask from './component/Loading & Error States/LoadingTask'
 import RoutingTask from './component/Router-Dom/RoutingTask';
-import DynamicTask from './component/Dynamic_Route/DynamicTask';
+import DynamicTask from './component/Dynamic_Route and Nested Route/DynamicTask';
 import './App.css'
 const App = () => {
   return (
@@ -83,7 +83,7 @@ const App = () => {
       {/* <div>
         <RoutingTask/>
       </div> */}
-      ,<div>
+      <div>
         <DynamicTask/>
       </div>
     </div>
