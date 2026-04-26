@@ -20,6 +20,7 @@ import LoadingTask from './component/Loading & Error States/LoadingTask'
 import RoutingTask from './component/Router-Dom/RoutingTask';
 import UseNavigationApp from './component/UseNavigation/UseNavigationApp';
 import DynamicTask from './component/Dynamic_Route and Nested Route/DynamicTask';
+import ProtectedApp from './component/React Protected Routes/ProtectedApp';
 import './App.css'
 const App = () => {
   return (
@@ -87,8 +88,11 @@ const App = () => {
       {/* <div>
         <DynamicTask/>
       </div> */}
-      <div>
+      {/* <div>
         <UseNavigationApp/>
+      </div> */}
+      <div>
+        <ProtectedApp/>
       </div>
     </div>
   )
