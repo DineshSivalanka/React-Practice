@@ -18,6 +18,7 @@ import ContextAPI from './component/Context_API/ContextAPI';
 import ApiData from './component/API Data Fetching in React/ApiData';
 import LoadingTask from './component/Loading & Error States/LoadingTask'
 import RoutingTask from './component/Router-Dom/RoutingTask';
+import UseNavigationApp from './component/UseNavigation/UseNavigationApp';
 import DynamicTask from './component/Dynamic_Route and Nested Route/DynamicTask';
 import './App.css'
 const App = () => {
@@ -41,7 +42,7 @@ const App = () => {
       <div>
         <Useeffect/>
       </div> 
-       <div>
+      <div>
         <List/>
       </div> 
       <div>
@@ -83,8 +84,11 @@ const App = () => {
       {/* <div>
         <RoutingTask/>
       </div> */}
-      <div>
+      {/* <div>
         <DynamicTask/>
+      </div> */}
+      <div>
+        <UseNavigationApp/>
       </div>
     </div>
   )
