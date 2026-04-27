@@ -26,6 +26,7 @@ import ReactMemoApp from './component/React memo/ReactMemoApp';
 import UseMemo from './component/Use Memo/UseMemo';
 
 import './App.css'
+import UseCallback from './component/UseCallback/UseCallback';
 const App = () => {
   return (
     <div  className='body'>
@@ -104,8 +105,11 @@ const App = () => {
       {/* <div>
         <ReactMemoApp/>
       </div> */}
-      <div>
+      {/* <div>
         <UseMemo/>
+      </div> */}
+      <div>
+        <UseCallback/>
       </div>
     </div>
   )

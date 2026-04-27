@@ -7,7 +7,7 @@ const Example = () => {
   const slowFunction = (num) => {
     console.log("Calculating...");
     for (let i = 0; i < 1000000000; i++) {Math.sqrt(i)} // heavy work
-    return num * 2;
+    return num;
   };
 
   const result = useMemo(() => {
