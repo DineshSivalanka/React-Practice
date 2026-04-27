@@ -23,6 +23,8 @@ import DynamicTask from './component/Dynamic_Route and Nested Route/DynamicTask'
 import ProtectedApp from './component/React Protected Routes/ProtectedApp';
 import LocalStorage from './component/LocalStorage/LocalStorage';
 import ReactMemoApp from './component/React memo/ReactMemoApp';
+import UseMemo from './component/Use Memo/UseMemo';
+
 import './App.css'
 const App = () => {
   return (
@@ -99,8 +101,11 @@ const App = () => {
       {/* <div>
         <LocalStorage/>
       </div> */}
-      <div>
+      {/* <div>
         <ReactMemoApp/>
+      </div> */}
+      <div>
+        <UseMemo/>
       </div>
     </div>
   )
