@@ -5,7 +5,6 @@ const ProtectedRoute = ({children,Auth}) => {
         return <Navigate to="/"/>
     }
     return children
-
 }
 
 export default ProtectedRoute

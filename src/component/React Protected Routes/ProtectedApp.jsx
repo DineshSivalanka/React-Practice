@@ -7,7 +7,9 @@ import Navbar from './Navbar'
 import { useState } from 'react';
 import ProtectedRoute from './ProtectedRoute';
 const ProtectedApp = () => {
+
   const [Auth,setisAuth] = useState(false);
+  
   const router=createBrowserRouter([
     {
       path:"/",
