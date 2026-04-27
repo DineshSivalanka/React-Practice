@@ -22,7 +22,7 @@ import UseNavigationApp from './component/UseNavigation/UseNavigationApp';
 import DynamicTask from './component/Dynamic_Route and Nested Route/DynamicTask';
 import ProtectedApp from './component/React Protected Routes/ProtectedApp';
 import LocalStorage from './component/LocalStorage/LocalStorage';
-
+import ReactMemoApp from './component/React memo/ReactMemoApp';
 import './App.css'
 const App = () => {
   return (
@@ -96,8 +96,11 @@ const App = () => {
       {/* <div>
         <ProtectedApp/>
       </div> */}
-      <div>
+      {/* <div>
         <LocalStorage/>
+      </div> */}
+      <div>
+        <ReactMemoApp/>
       </div>
     </div>
   )
